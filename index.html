@@ -14,6 +14,17 @@
     <button id="authorize-button" style="display: none;">Authorize</button>
     <button id="signout-button" style="display: none;">Sign Out</button>
 
+
+    <!-- Eventually, add buttons/input here to allow teams to choose data, what kind of visualization, etc. -->
+
+
+
+
+
+
+
+
+
     <pre id="content"></pre>
 
     <script type="text/javascript">
@@ -104,20 +115,38 @@
        */
       function listMajors() {
         gapi.client.sheets.spreadsheets.values.get({
+
+            // teams should specify spreadsheet ID and range of rows/columns
           spreadsheetId: '1C9CWApvzBdtnvI5PmJrmJjeatT88Tj1_Pepnv9P2NcI',
           range: 'Sheet1!A2:E',
         }).then(function(response) {
           var range = response.result;
+
+          // if there is data
           if (range.values.length > 0) {
+
+
+
+
+            // insert d3 code here. 
+            // eventually teams can choose a visualization from a button, and values will be loaded into corresponding d3 graph
+
+
             appendPre('Name, Major:');
             for (i = 0; i < range.values.length; i++) {
               var row = range.values[i];
               // Print columns A and E, which correspond to indices 0 and 4.
               appendPre(row[0] + ', ' + row[4]);
             }
-          } else {
+
+            
+          }
+           else {
             appendPre('No data found.');
           }
+
+
+
         }, function(response) {
           appendPre('Error: ' + response.result.error.message);
         });
