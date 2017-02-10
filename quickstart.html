@@ -1,14 +1,11 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-    <script type="text/javascript" src="./tooltip.js"></script>
-</head>
-<body>
-
-<p>Google Sheets API Quickstart</p>
+  <head>
+    <title>Google Sheets API Quickstart</title>
+    <meta charset='utf-8' />
+  </head>
+  <body>
+    <p>Google Sheets API Quickstart</p>
 
     <!--Add buttons to initiate auth sequence and sign out-->
     <button id="authorize-button" style="display: none;">Authorize</button>
@@ -129,36 +126,5 @@
       onload="this.onload=function(){};handleClientLoad()"
       onreadystatechange="if (this.readyState === 'complete') this.onload()">
     </script>
-
-    
-
-
-
-
-
-
-<div class="viz"></div>
-<script type="text/javascript">
-
-    var sampleSVG = d3.select('.viz')
-            .append('svg')
-            .attr({width: 600, height: 100});
-
-    var data = d3.range(5).map(function(d, i){ return ~~(Math.random()*100); })
-
-    sampleSVG.selectAll('circle')
-            .data(data)
-            .enter().append('circle')
-            .style({stroke: 'gray', fill: 'aliceblue'})
-            .attr({r: 40, cx: function(d, i){ return i*100 + 50; }, cy: 50})
-            .call(d3.helper.tooltip()
-                .attr({class: function(d, i) { return d + ' ' +  i + ' A'; }})
-                .style({color: 'blue'})
-                .text(function(d, i){ return 'value: '+d; })
-            )
-            .on('mouseover', function(d, i){ d3.select(this).style({fill: 'skyblue'}); })
-            .on('mouseout', function(d, i){ d3.select(this).style({fill: 'aliceblue'}); });
-
-</script>
-</body>
+  </body>
 </html>
