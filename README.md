@@ -21,3 +21,4 @@ npm run release
 ```
 
 Then simply copy the contents of `public/` to your final destination.
+
