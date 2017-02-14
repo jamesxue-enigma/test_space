@@ -1,0 +1,300 @@
+// Sanitize is a nice starter stylesheet to help remove many cross-browser differences in how elements
+// are displayed and present a clean working surface to build your final designs. Customize the variables
+// below to your liking, or get rid of the whole thing if you don't want it.
+
+/*! sanitize.css | CC0 Public Domain | github.com/jonathantneal/sanitize.css */
+
+root-box-sizing ?= border-box
+root-cursor ?= default
+root-font-family ?= sans-serif
+root-font-size ?= 16px
+root-line-height ?= 1.5
+root-text-rendering ?= optimizeLegibility
+
+html-background-color ?= #FFFFFF
+anchor-text-decoration ?= none
+form-element-background-color ?= transparent
+
+media-element-vertical-align ?= middle
+monospace-font-family ?= monospace
+nav-list-style ?= none
+selection-background-color ?= #B3D4FC
+selection-text-shadow ?= none
+small-font-size ?= 75%
+table-border-collapse ?= collapse
+table-border-spacing ?= 0
+textarea-resize ?= vertical
+
+
+if unit(root-line-height) == ''
+    form-element-min-height ?= unit(root-line-height, 'em')
+else
+    if unit(root-line-height) != '%'
+        form-element-min-height ?= root-line-height
+    else
+        form-element-min-height ?= null
+
+
+/*
+ * Normalization
+ */
+
+:root {
+    -ms-overflow-style: -ms-autohiding-scrollbar; // IE11+
+    // overflow-y: scroll; // All browsers without overlaying scrollbars
+    text-size-adjust: 100%; // iOS 8+
+}
+
+audio:not([controls]) {
+    display: none; // Chrome 40+, iOS 8+, Safari 8+
+}
+
+details {
+    display: block; // Firefox 36+, Internet Explorer 11+, Windows Phone 8.1+
+}
+
+input {
+    &[type="number"] {
+        width: auto; // Firefox 36+
+    }
+
+    &[type="search"] {
+        -webkit-appearance: textfield; // Safari 8+
+
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-decoration {
+            -webkit-appearance: none; // Safari 8+
+        }
+    }
+}
+
+main {
+    display: block; // Android 4.3-, Internet Explorer 11+, Windows Phone 8.1+
+}
+
+summary {
+    display: block; // Firefox 36+, Internet Explorer 11+, Windows Phone 8.1+
+}
+
+pre {
+    overflow: auto; // Internet Explorer 11+
+}
+
+progress {
+    display: inline-block; // Internet Explorer 11+, Windows Phone 8.1+
+}
+
+small {
+    font-size: small-font-size; // All browsers
+}
+
+template {
+    display: none; // Android 4.3-, Internet Explorer 11+, iOS 7-, Safari 7-, Windows Phone 8.1+
+}
+
+textarea {
+    overflow: auto; // Internet Explorer 11+
+}
+
+[hidden] {
+    display: none; // Internet Explorer 10-
+}
+
+[unselectable] {
+    user-select: none; // Android 4.4+, Chrome 40+, Firefox 36+, iOS 8+, Safari 8+
+}
+
+
+
+/*
+ * Universal inheritance
+ */
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+::before,
+::after {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+
+
+
+/*
+ * Opinionated defaults
+ */
+
+// specify solid border style of all elements
+
+*,
+::before,
+::after {
+    border-style: solid;
+    border-width: 0;
+}
+
+// remove margin and padding of all elements
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// specify the root styles of the document
+
+:root {
+    box-sizing: root-box-sizing;
+    cursor: root-cursor;
+    font: root-font-size/root-line-height root-font-family;
+    text-rendering: root-text-rendering;
+}
+
+// specify the html background color
+
+html {
+    background-color: html-background-color;
+}
+
+// specify the text decoration of anchors
+
+a {
+    text-decoration: anchor-text-decoration;
+}
+
+// specify media element style
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: media-element-vertical-align;
+}
+
+// specify the background color of form elements
+
+button,
+input,
+select,
+textarea {
+    background-color: form-element-background-color;
+}
+
+// specify inheritance of form elements
+
+button,
+input,
+select,
+textarea {
+    color: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+// specify the minimum height of form elements
+
+button,
+[type="button"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="reset"],
+[type="search"],
+[type="submit"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+select,
+textarea {
+    min-height: form-element-min-height;
+}
+
+// specify the font family of code elements
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace-font-family, monospace;
+}
+
+// specify the list style of nav lists
+
+nav ol,
+nav ul {
+    list-style: nav-list-style;
+}
+
+// style select like a standard input
+
+select {
+    appearance: none;
+
+    &::-ms-expand {
+        display: none;        // Internet Explorer 11+
+    }
+
+    &::-ms-value {
+        color: currentColor;  // Internet Explorer 11+
+    }
+}
+
+// specify the border styles of tables
+
+table {
+    border-collapse: table-border-collapse;
+    border-spacing: table-border-spacing;
+}
+
+// specify textarea resizability
+
+textarea {
+    resize: textarea-resize;
+}
+
+// specify text selection background color and omit drop shadow
+
+::selection {
+    background-color: selection-background-color; // required when declaring ::selection
+    text-shadow: selection-text-shadow;
+}
+
+// hide content from screens but not screenreaders
+
+@media screen {
+    [hidden~="screen"] {
+        display: inherit;
+    }
+
+    [hidden~="screen"]:not(:active):not(:focus):not(:target) {
+        clip: rect(0 0 0 0) !important;
+        position: absolute !important;
+    }
+}
+
+// Your global styles go here.
+// It's recommended to break up your rules on a per-component basis.
+
+// Write your code without vendor-prefixing wherever possible, Autoprefixer will add them for you during compilation.
+// e.g. display: flex;   ------>  display: webkit-flex; display: webkit-box; etc.
+
+// Automatically import style.styl files in subdirectories below
+// (the extra */* is to prevent this file from importing itself)
+@import "*/**/*.styl"
