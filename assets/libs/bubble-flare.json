@@ -1,0 +1,221 @@
+{
+ "name": "enigma",
+ "children": [
+
+   {"name": "Abstract","children": [
+     {"name": "Backend","children": [{"name": "Blaine Boman", "size": 4000}, {"name": "Jeff Knupp", "size": 2800}, {"name": "Trevor Prater", "size": 4000}, {"name": "Tom Wells", "size": 4000}, {"name": "Yang Yang", "size": 4000}]
+     },
+      {"name": "Design","children": [{"name": "Owen Whiting", "size": 2000}]
+      },
+      {"name": "Engineering Management","children": [{"name": "Jeff Knupp", "size": 2000}, {"name": "Igor Lev", "size": 1600}]
+      },
+      {"name": "Front End","children": [{"name": "Abe Rubenstein", "size": 2000}, {"name": "Evan Jacobs", "size": 4000}]
+      },
+      {"name": "Product Management","children": [{"name": "Craig Danton", "size": 1600}, {"name": "Ken Keiter", "size": 2000}]
+      }
+     ]
+   },
+   {"name": "ParseKit","children": [
+     {"name": "Backend","children": [{"name": "John Barker", "size": 2400}, {"name": "Ben Gelb", "size": 4000}, {"name": "Niger Little-Poole", "size": 4000},{"name": "Trevor Prater", "size": 4000}, {"name": "Clinton Monk", "size": 4000}, {"name": "Alex Roth", "size": 4000}]
+     },
+      {"name": "Client Management","children": [{"name": "Steve Estes", "size": 400}]
+      },
+      {"name": "Design","children": [{"name": "Melody Hammer", "size": 4000}, {"name": "Ashley Kircher", "size": 4000}]
+      },
+      {"name": "Front End","children": [{"name": "Jen Creighton", "size": 4000}]
+      },
+      {"name": "Infrastructure","children": [{"name": "Mike Leone", "size": 2000}]
+      },
+      {"name": "Engineering Management","children": [{"name": "Greg Kremler", "size": 400}]
+      },
+      {"name": "Management","children": [{"name": "Jamie Bernardin", "size": 1000}]
+      },
+      {"name": "Product Management","children": [{"name": "Mohamed Attahri", "size": 4000}, {"name": "Craig Danton", "size": 200}]
+      }
+     ]
+   },
+   {"name": "Data Packages","children": [
+      {"name": "Client Management","children": [{"name": "Jeremy Ulman", "size": 1400}]
+      },
+      {"name": "Data Engineering","children": [{"name": "Cecilia Watt", "size": 2000}]
+      },
+      {"name": "Data Science","children": [{"name": "Maureen Teyssier", "size": 1200}]
+      },
+      {"name": "Ops","children": [{"name": "Andrew Wrisinger", "size": 4000}, {"name": "India Kerle", "size": 2000}]
+      },
+      {"name": "Product Management","children": [{"name": "Eve Ahearn", "size": 2000}, {"name": "Craig Danton", "size": 200}]
+      }
+     ]
+   },
+   {"name": "Foundations","children": [
+      {"name": "Machine Learning Engineer","children": [{"name": "Peter Varshavsky", "size": 2000}, {"name": "Jeremy Krinsley", "size": 2400}, {"name": "Clemente Cuevas", "size": 4000}]
+      }
+     ]
+   },
+   {"name": "Management","children": [
+     {"name": "Backend","children": [{"name": "John Barker", "size": 800}]
+     },
+     {"name": "Client Management","children": [{"name": "Courtney Johnson", "size": 800}, {"name": "James Edgar", "size": 400}]
+     },
+     {"name": "Data Science","children": [{"name": "Thomas Moran", "size": 1200}]
+     },
+     {"name": "Engineering Management","children": [{"name": "Greg Kremler", "size": 3600}]
+     },
+     {"name": "Ops","children": [{"name": "Ben Sesser", "size": 1200}]
+     },
+     {"name": "Management","children": [{"name": "Hicham Oudghiri", "size": 2400}, {"name": "Jamie Bernardin", "size": 3000}]
+     },
+     {"name": "Product Management","children": [{"name": "Craig Danton", "size": 1400}, {"name": "Eve Ahearn", "size": 1000}]
+     },
+     {"name": "Recruiting","children": [{"name": "Rebecca Price", "size": 2400}]
+     },
+     {"name": "Technical Project Management","children": [{"name": "Igor Lev", "size": 1000}]
+     }
+     ]
+   },
+   {"name": "Marketing","children": [
+     {"name": "Client Management","children": [{"name": "Kelvin Chan", "size": 400}]
+     },
+     {"name": "Design","children": [{"name": "Ann Li", "size": 4000}, {"name": "Owen Whiting", "size": 2000}]
+     },
+     {"name": "Front End","children": [{"name": "Abe Rubenstein", "size": 2000}]
+     },
+      {"name": "Machine Learning Engineer","children": [{"name": "Jeremy Krinsley", "size": 1600}]
+      },
+      {"name": "Marketing","children": [{"name": "Sam Hallock", "size": 4000}, {"name": "Juliana Sullam", "size": 4000}]
+      },
+      {"name": "Product Management","children": [{"name": "Eve Ahearn", "size": 200}, {"name": "Ken Keiter", "size": 2000}]
+      }
+     ]
+   },
+
+
+   {"name": "Explore","children": [
+      {"name": "Design","children": [{"name": "Ashley Kircher", "size": 4000}]
+      },
+      {"name": "Front End","children": [{"name": "Jenn Creighton", "size": 4000}]
+      },
+      {"name": "Product Management","children": [{"name": "Craig Danton", "size": 1000}]
+      }
+     ]
+   },
+   {"name": "Sales","children": [
+     {"name": "Client Management","children": [{"name": "Kelvin Chan", "size": 400}, {"name": "James Edgar", "size": 12000}, {"name": "Steve Estes", "size": 1600}, {"name": "Jeremy Ulman", "size": 800}]
+     },
+     {"name": "Data Science","children": [{"name": "Maureen Teyssier", "size": 400}]
+     },
+     {"name": "Machine Learning Engineering","children": [{"name": "Jeremy Krinsley", "size": 1200}]
+     },
+     {"name": "Management","children": [{"name": "Hicham Oudghiri", "size": 1600}]
+     },
+     {"name": "Ops","children": [{"name": "Ben Sesser", "size": 800}, {"name": "India Kerle", "size": 2000}, {"name": "Jason Wardy", "size": 800}]
+     },
+     {"name": "Product Management","children": [{"name": "Eve Ahearn", "size": 1000}, {"name": "Craig Danton", "size": 200}]
+     },
+     {"name": "Sales","children": [{"name": "Mike Flowers", "size": 4000}, {"name": "J.T. Levin", "size": 4000}]
+     }
+     ]
+   },
+   {"name": "Operations","children": [
+     {"name": "Inf","children": [{"name": "Mike Leone", "size": 1000}]
+     },
+     {"name": "Ops","children": [{"name": "Matt Horan", "size": 4000},{"name": "Donia Khalifa", "size": 4000},{"name": "Jaleh Afrooze", "size": 4000},{"name": "Ben Sesser", "size": 2000},{"name": "Stephanie Spiegel", "size": 4000}, {"name": "Jason Wardy", "size": 2400}]
+     }
+     ]
+   },
+   {"name": "Recruiting","children": [
+     {"name": "Recruiting","children": [{"name": "Lee Gutman", "size": 4000},{"name": "Rebecca Price", "size": 1600},{"name": "Caitlin Whalen", "size": 4000}]
+     }
+     ]
+   },
+   {"name": "Merck","children": [
+     {"name": "Backend","children": [{"name": "Michael Benoit", "size": 4000}, {"name": "Jeff Knupp", "size": 600}]
+     },
+     {"name": "Client Management","children": [{"name": "James Edgar", "size": 800}, {"name": "Courtney Johnson", "size": 800}]
+     },
+     {"name": "Data Engineering","children": [{"name": "Juan Gonzalez", "size": 4000}, {"name": "Josh Wilson", "size": 4000}]
+     },
+     {"name": "Technical Project Management","children": [{"name": "Igor Lev", "size": 400}]
+     }
+     ]
+   },
+   {"name": "Amex AML","children": [
+     {"name": "Backend","children": [{"name": "John Barker", "size": 400}, {"name": "Michael Donatz", "size": 4000}, {"name": "Jeff Knupp", "size": 600}]
+     },
+     {"name": "Client Management","children": [{"name": "Courtney Johnson", "size": 2400}]
+     },
+     {"name": "Data Engineering","children": [{"name": "Ben Eastburn", "size": 4000}]
+     },
+     {"name": "Data Science","children": [{"name": "Thomas Moran", "size": 2800}]
+     },
+     {"name": "Deployment Engineer","children": [{"name": "Emil Christensen", "size": 4000}, {"name": "Yefim Kelmanskiy", "size": 4000}, {"name": "Susana Delgadillo", "size": 4000}]
+     },
+     {"name": "Design","children": [{"name": "Alisa Omi", "size": 4000}]
+     },
+     {"name": "Inf","children": [{"name": "Mike Leone", "size": 1000}]
+     },
+     {"name": "Machine Learning Engineer","children": [{"name": "Jarrod Parker", "size": 4000}, {"name": "Peter Varshavsky", "size": 1000}]
+     },
+     {"name": "Ops","children": [{"name": "Jason Wardy", "size": 800}]
+     },
+     {"name": "Product Management","children": [{"name": "Jason Wardy", "size": 200}]
+     },
+     {"name": "Technical Project Management","children": [{"name": "Igor Lev", "size": 2000}]
+     }
+     ]
+   },
+   {"name": "Celgene","children": [
+     {"name": "Machine Learning Engineering","children": [{"name": "Austin Webb", "size": 4000}, {"name": "Urvish Parikh", "size": 4000}, {"name": "Peter Varshavsky", "size": 1000}]
+   },
+   {"name": "Client Management","children": [{"name": "James Edgar", "size": 1600}, {"name": "Kelvin Chan", "size": 3200}]
+   },
+   {"name": "Data Engineering","children": [{"name": "Olga Ianiuk", "size": 4000}]
+   },
+   {"name": "Technical Project Management","children": [{"name": "Igor Lev", "size": 600}]
+   }
+     ]
+   },
+   {"name": "EMD Millipore","children": [
+      {"name": "Client Management","children": [{"name": "Steve Estes", "size": 1600}]
+      }
+     ]
+   },
+   {"name": "Two Sigma","children": [
+     {"name": "Client Management","children": [{"name": "Steve Estes", "size": 800}]
+     },
+     {"name": "Data Engineering","children": [{"name": "Cecilia Watt", "size": 2000}, {"name": "Mike Dillion", "size": 4000}]
+     },
+     {"name": "Backend","children": [{"name": "John Barker", "size": 400}]
+     }
+     ]
+   },
+   {"name": "ADP","children": [
+     {"name": "Client Management","children": [{"name": "Jeremy Ulman", "size": 1000}]
+     },
+     {"name": "Data Science","children": [{"name": "Maureen Teyssier", "size": 1200}]
+     }
+     ]
+   },
+  {"name": "Verisk","children": [
+    {"name": "Client Management","children": [{"name": "Jeremy Ulman", "size": 400}]
+    }
+    ]
+  },
+  {"name": "Amex Prospecting","children": [
+    {"name": "Client Management","children": [{"name": "Jeremy Ulman", "size": 400}]
+    }
+    ]
+  },
+  {"name": "The Hartford","children": [
+    {"name": "Data Science","children": [{"name": "Maureen Teyssier", "size": 1200}]
+    }
+    ]
+  }
+
+
+
+
+
+
+ ]
+}

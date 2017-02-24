@@ -1,0 +1,105 @@
+{
+    "name": "CEO: Hicham Oudghiri",
+    "children": [
+      {"name": "Chief Analytics Officer: Mike Flowers", "size": 2000},
+      {"name": "VP of Architecture: Ken Keiter", "size": 2000},
+      {"name": "Chairman: Marc DaCosta", "size": 2000},
+      {"name": "Director of Commercial: Courtney Johnson",
+        "children": [
+          {"name": "Senior Analyst: Jeremy Ulman", "size": 2000},
+          {"name": "Alexis Mikaelian", "size": 2000},
+          {"name": "Ishani Mukherjee", "size": 2000},
+          {"name": "Senior Analyst: Kelvin Chan", "size": 2000},
+          {"name": "Commercial Manager: Steve Estes", "size": 2000},
+          {"name": "Senior Commercial Manager: James Edgar", "size": 2000}
+        ]
+      },
+      {"name": "VP of People: Rebecca Price",
+        "children": [
+          {"name": "Lead Recruiter: Lee Gutman", "size": 2000},
+          {"name": "Recruiter: Caitlin Whalen", "size": 2000}
+        ]
+      },
+      {"name": "VP of Operations: Ben Sesser",
+        "children": [
+          {"name": "Director of Marketing: Sam Hallock",
+            "children": [
+                {"name": "Product Marketing Manager: Juliana Sullam", "size": 2000},
+                {"name": "Content Marketing Manager: Alexandra Northington", "size": 2000},
+                {"name": "Marketing Designer: Ann Li", "size": 2000}
+              ]},
+          {"name": "Sales Director: J.T. Levin", "size": 2000},
+          {"name": "Assistant to the CEO: Donia Khalifa", "size": 2000},
+          {"name": "People and Operations Manager: Stephanie Spiegel", "size": 2000},
+          {"name": "Operations Analyst: Matt Horan", "size": 2000},
+          {"name": "Operations Analyst: Jason Wardy", "size": 2000},
+          {"name": "Corporate IT: Joseph Prainito", "size": 2000}
+        ]
+      },
+      {"name": "VP of Product: Craig Danton",
+        "children": [
+          {"name": "Senior Product Manager: Mohamed Attahri", "size": 2000},
+          {"name": "Product Manager: Eve Ahearn",
+            "children": [
+                {"name": "Data Sourcer: Andrew Wrisinger", "size": 2000},
+                {"name": "Data Sourcer: India Kerle", "size": 2000}
+              ]},
+          {"name": "Product Designer: Melody Hammer", "size": 2000},
+          {"name": "Product Designer: Ashley Kircher", "size": 2000},
+          {"name": "Designer: Owen Whiting", "size": 2000}
+        ]
+      },
+      {"name": "Senior Data Scientist: Thomas Moran",
+        "children": [
+          {"name": "Senior Data Scientist: Maureen Teyssier", "size": 2000}
+        ]
+      },
+      {"name": "VP of Engineering: Jamie Bernardin",
+        "children": [
+          {"name": "Engineering Manager: Jeff Knupp",
+            "children": [
+                {"name": "Lead Frontend Engineer: Evan Jacobs", "size": 2000},
+                {"name": "Frontend Engineer: Abe Rubenstein", "size": 2000},
+                {"name": "Senior Software Engineer: Yang Yang", "size": 2000},
+                {"name": "Software Engineer: Michael Donatz", "size": 2000},
+                {"name": "Backend Engineer: Blaine Boman", "size": 2000},
+                {"name": "Backend Engineer: Thomas Wells", "size": 2000},
+                {"name": "Infrastructure Engineer: Michael Leone", "size": 2000},
+                {"name": "Software Engineer: Trevor Prater", "size": 2000}
+            ]},
+          {"name": "Engineering Manager: TBH",
+            "children": [
+              {"name": "Senior Software Engineer: Ben Gelb", "size": 2000},
+              {"name": "Software Engineer: Alex Roth", "size": 2000},
+              {"name": "Senior Software Engineer: John Barker", "size": 2000},
+              {"name": "Backend Engineer: Clinton Monk", "size": 2000},
+              {"name": "Frontend Engineer: Jenn Creighton", "size": 2000},
+              {"name": "Frontend Engineer: Jeff Weinberg", "size": 2000}
+            ]},
+          {"name": "Engineering Manager: Greg Kremler",
+            "children": [
+              {"name": "Data Engineer: Emil Christensen", "size": 2000},
+              {"name": "Data Engineer: Olga Ianiuk", "size": 2000},
+              {"name": "Data Engineer: Mike Dillion", "size": 2000},
+              {"name": "Data Engineer: Juan Gonzalez", "size": 2000},
+              {"name": "Data Engineer: Niger Little-Poole", "size": 2000},
+              {"name": "Data Engineer: Josh Wilson", "size": 2000},
+              {"name": "Data Engineer: Benjamin Eastburn", "size": 2000},
+              {"name": "Data Engineer: Cecilia Watt", "size": 2000}
+            ]},
+          {"name": "Engineering Manager: Igor Lev",
+            "children": [
+              {"name": "Product Engineer: Yefim Kelmanskiy", "size": 2000},
+              {"name": "Software Engineer: Michael Benoit", "size": 2000},
+              {"name": "Data Scientist: Clemente Cuevas", "size": 2000},
+              {"name": "Algorithmist: Austin Webb", "size": 2000},
+              {"name": "Senior Software Engineer: Urvish Parikh", "size": 2000},
+              {"name": "Principal Data Scientist: Jarrod Parker", "size": 2000},
+              {"name": "Software Engineer: Jeremy Krinsley", "size": 2000},
+              {"name": "Software Engineer: Peter Varshavsky", "size": 2000}
+            ]}
+        ]
+      }
+
+    ]
+}
